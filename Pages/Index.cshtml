@@ -1,0 +1,858 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<body data-spy="scroll" data-target="#exCollapsingNavbar2">
+
+<section id="cover">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-sm-3">
+                        <div class="col-xs-12">
+                            <img src="~/images/logo.png" class="logo">
+                        </div>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-sm-10 offset-sm-1 col-xs-12">
+                        <blockquote class="wall-sticker">Portfolio of Work</blockquote>
+                     </div>
+
+                 </div>
+
+                 <div class="row">
+                    <div class="bottom-align-text col-xs-12">
+                    <p><a href="#skills"><i class="fa fa-chevron-down fa-4x"></i></a></p>
+                    </div>
+                </div>
+
+             </div>
+
+        </section>
+
+
+<nav class="navbar navbar-light" style="background-color: rgba(255, 255, 255, 0.9);" id="main-nav">
+    <button class="navbar-toggler hidden-md-up  pull-xs-left" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+    &#9776;
+    </button>
+    <div class="collapse navbar-toggleable-sm pull-xs-left pull-md-none" id="exCollapsingNavbar2">
+
+        <a class="navbar-brand" href="#cover">&nbsp;</a>
+
+        <ul class="nav navbar-nav" role="tablist">
+            <li class="nav-item pull-xs-none pull-md-left">
+                <a class="nav-link" href="#cover">Home</a>
+            </li>
+            <li class="nav-item pull-xs-none pull-md-left">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item pull-xs-none pull-md-left">
+                <a class="nav-link" href="#timeline">Timeline</a>
+            </li>
+            <li class="nav-item pull-xs-none pull-md-left">
+                <a class="nav-link" href="#section-cards">Portfolio</a>
+            </li>
+            <li class="nav-item pull-xs-none pull-md-left">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item pull-xs-none pull-md-left">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+
+
+<section id="skills">
+    <div class="section-skills fade-in">
+        <div class="container">
+            <h2 class="heading js-wp-1">Skill Set</h2>
+            <p class="lead sub-header js-wp-1">Designing to delight using the following tools:</p>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 square js-wp-2">
+                    <i class="fa fa-code fa-4x"></i>
+                    <hr class="green-hr">
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3/SCSS</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 square js-wp-4">
+                    <i class="fa fa-picture-o fa-4x"></i>
+                    <hr class="green-hr">
+                    <ul>
+                        <li>Illustrator</li>
+                        <li>InDesign</li>
+                        <li>Photoshop</li>
+                        <li>Sketch</li>
+                        <li><a href="https://storymaps.arcgis.com/en/app-list/" target="_blank">Story Maps</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 square js-wp-4">
+                     <i class="fa fa-server fa-4x"></i>
+                     <hr class="green-hr">
+                     <ul>
+                        <li>MongoDB</li>
+                        <li>Express</li>
+                        <li>NodeJS</li>
+                        <li>SCSS</li>
+                        <li><a href="http://www.esri.com/software/arcgis/arcgisonline/credits" target="_blank">ArcGIS Online</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 square js-wp-3">
+                    <i class="fa fa-home fa-4x"></i>
+                    <hr class="green-hr">
+                    <ul>
+                        <li>Creativity</li>
+                        <li>Visual Engagement</li>
+                        <li>Intelligent Play</li>
+                        <li>Collaboration</li>
+                        <li>Leadership</li>
+                    </ul>
+                </div>
+            </div><!-- ROW -->
+        </div><!-- CONTAINER -->
+    </div><!-- SECTION-FEATURES -->
+</section> <!-- SECTION -->
+
+<section class="why-us page" id="timeline">
+    <div class="section-timeline">
+        <div class="container">
+            <h2 class="heading">Activity Timeline</h2>
+            <p class="lead sub-header">
+                How ado design has evolved.
+            </p>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge-left">2016</div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Full Stack (MEN) Development</h4>
+                            <p><small class="text-muted"><i class="fa fa-server" aria-hidden="true"></i>Development</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                Upgraded coding skills to better design in code. These include front end technologies, JavaScript, jQuery, SCSS, CSS3, HTML5, and back end technologies, MongoDB, Express, and NodeJS.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge-right">2015</div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">GoTo v2.0 UI Design</h4>
+                            <p><small class="text-muted"><i class="fa fa-picture-o" aria-hidden="true"></i>Design</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                Designed the mobile and desktop UI for a new GoTo. Initially lost the bid, but won the client after the bid winner proved difficult to work with.
+                            </p>
+                        </div>
+
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Silver Lake Design Studio</h4>
+                            <p><small class="text-muted"><i class="fa fa-picture-o" aria-hidden="true"></i>Design • <i class="fa fa-code" aria-hidden="true"></i>Development</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                Rebranded the freelance design consulting business as <a href="http://www.silverlakedesignstudio.com" target="_blank"> Silver Lake Design Studio</a>.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge-left">2014</div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Ski Condo Vacation Rental Renovation</h4>
+                            <p><small class="text-muted"><i class="fa fa-home" aria-hidden="true"></i>Creativity</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                While not online design, this project developed design, project management, and leadership skills. Plus it offers a hip refuge. Rated 5 stars by guests, <a href="https://www.vacasa.com/unit/4737" target="_blank"> rent this condo </a> and experience its sublime design influence.
+                            </p>
+                        </div>
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Magic Links</h4>
+                            <p><small class="text-muted"><i class="fa fa-picture-o" aria-hidden="true"></i>Design</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                MagicLinks developed out of Chippmunk. As a core team member and art director I designed the mobile and desktop UI of the backend dashboard for link creation, click data, reporting, performance, and profile tools.
+                            </p>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge-right">2012</div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Chippmunk | Internet Brands</h4>
+                            <p><small class="text-muted"><i class="fa fa-picture-o" aria-hidden="true"></i>Design</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                Designed the UI for start-up Chippmunk as core team member with ownership options of the start up. While developing Chippmunk, I consulted at Internet Brands, creating the UI and branding for multiple properties.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge-left">2009</div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Westsite Websites | 20th TV</h4>
+                            <p><small class="text-muted"><i class="fa fa-picture-o" aria-hidden="true"></i>Design</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                Developed multiple properties as a member of the start up incubator Westside Websites. One of these properties was 20th Television. We redeveloped and redesigned their online asset upload and distribution system.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge-right">2006</div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">TripAdvisor / Virtual Tourist</h4>
+                            <p><small class="text-muted"><i class="fa fa-picture-o" aria-hidden="true"></i>Design</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                Rebranded Virtual Tourist, a TripAdvisor company. Redesigned the website, identity, marketing materials, and coded a lovely online style guide using wiki media.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge-left">2001</div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Yahoo! Search Marketing | Overture | GoTo</h4>
+                            <p><small class="text-muted"><i class="fa fa-picture-o" aria-hidden="true"></i>Design</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                Supported the international market in branding, web, flash animation, and print design. Participated in the rebranding of GoTo into Overture, and the rebranding of Overture into Yahoo! Search Marketing.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge-right">1998</div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Plutus</h4>
+                            <p><small class="text-muted"><i class="fa fa-picture-o" aria-hidden="true"></i>Design</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                Designed EMI's music distribution portal as a part of the web team. Later collaborated with team members in the startups eDivvy, Westside Websites, Chippmunk, and MagicLinks.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</section><!-- END SECTION TIMELINE -->
+
+<section id="quote" class="page" data-type="background" data-speed="4">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 offset-sm-3" >
+                <blockquote>
+                <h2><i class="fa fa-quote-left"></i>It's not what you look at that matters, it's what you see.<i class="fa fa-quote-right"></i> </h2>
+
+                <cite>&#8212Henry David Thoreau</cite>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+</section><!-- END SECTION QUOTE (PARALLAX) -->
+
+
+<section id="section-cards">
+    <div class="container">
+        <h2>Portfolio</h2>
+        <p class="lead sub-header">A more detailed portfolio can be found at <a href="http://www.silverlakedesignstudio.com/portfolio-of-work/" target="_blank"> Silver Lake Design Studio</a>.</p>
+
+        <div class="row">
+                <div class="col-sm-12">
+                    <div class="title_separator title_sep_pos_align_center title_sep_width_100 title_sep_border_width_2 title_sep_pos_align_center">
+                        <span class="title_separator title_sep_holder">
+                            <span class="title_sep_line"></span>
+                        </span>
+                        <h3><a href="http://silverlakedesignstudio.com/portfolio-posts/yahoo-search-marketing/" target="_blank"> Yahoo! Search Marketing</a></h3>
+                        <span class="title_separator title_sep_holder">
+                            <span class="title_sep_line"></span>
+                        </span>
+                    </div>
+                </div>
+        </div>
+
+        <div class="row">
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="~/images/portfolio/yahoo_123.jpg" alt="Card image">
+                        <div class="card-block">
+                            <p class="card-text">Yahoo! Search Marketing <br>direct mail campaign</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="~/images/portfolio/yahoo_direct_mail.jpg" alt="Card image">
+                        <div class="card-block">
+                            <p class="card-text">Yahoo! Search Marketing <br>direct mail campaign</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="~/images/portfolio/yahoo_bridge.jpg" alt="Card image">
+                        <div class="card-block">
+                            <p class="card-text">Yahoo! Search Marketing <br>bridge page design</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-4">
+                <div class="card">
+                    <!-- <div class="card-block">
+                        <h4 class="card-title">Hiking &amp; Sightseeing</h4>
+                        <h6 class="card-subtitle text-muted">Support Card Subtitle</h6>
+                    </div> -->
+                    <img src="~/images/portfolio/yahoo_keywords_arrow.gif" alt="yahoo! search marketing keyword direct mail campaign">
+                    <div class="card-block">
+                        <p class="card-text">Yahoo! Search Marketing keywords direct mail campaign design</p>
+                        <!-- <a href="#" class="card-link">Card Link</a>
+                        <a href="#" class="card-link">Another Link</a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/yahoo_keywords_car.gif" alt="yahoo! search marketing keyword direct mail campaign">
+                    <div class="card-block">
+                        <p class="card-text">Yahoo! Search Marketing keywords direct mail campaign design</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/yahoo_keywords_bottle.gif" alt="yahoo! search marketing keyword direct mail campaign">
+                    <div class="card-block">
+                        <p class="card-text">Yahoo! Search Marketing keywords direct mail campaign design</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+                <div class="col-sm-12">
+                    <div class="title_separator title_sep_pos_align_center title_sep_width_100 title_sep_border_width_2 title_sep_pos_align_center">
+                        <span class="title_separator title_sep_holder">
+                            <span class="title_sep_line"></span>
+                        </span>
+                        <h3><a href="http://silverlakedesignstudio.com/portfolio-posts/magic-links/" target="_blank">MagicLinks</a></h3>
+                        <span class="title_separator title_sep_holder">
+                            <span class="title_sep_line"></span>
+                        </span>
+                    </div>
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                    <div class="card">
+                        <img src="~/images/portfolio/ml_1_dashboard.jpg" alt="Magic Links mobile dashboard design">
+                        <div class="card-block">
+                            <p class="card-text">MagicLinks dashboard design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="~/images/portfolio/ml_2_create_links.jpg" alt="Magic Links mobile dashboard design">
+                        <div class="card-block">
+                            <p class="card-text">MagicLinks dashboard design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="~/images/portfolio/ml_3_link_wizard.jpg" alt="Magic Links mobile dashboard design">
+                        <div class="card-block">
+                            <p class="card-text">MagicLinks dashboard design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="~/images/portfolio/ml_4_revenue.jpg" alt="Magic Links mobile dashboard design">
+                        <div class="card-block">
+                            <p class="card-text">MagicLinks dashboard design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="~/images/portfolio/ml_5_clicks_report.jpg" alt="Magic Links mobile dashboard design">
+                        <div class="card-block">
+                            <p class="card-text">MagicLinks dashboard design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="~/images/portfolio/ml_6_merchant_report.jpg" alt="Magic Links mobile dashboard design">
+                        <div class="card-block">
+                            <p class="card-text">MagicLinks dashboard design</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!-- <div class="row">
+            <div class="col-sm-12">
+                <h3 class="lead sub-header"><a href="http://silverlakedesignstudio.com/portfolio-posts/chippmunk/" target="_blank"> Chippmunk </a></h3>
+            </div>
+        </div> -->
+
+        <div class="row">
+                <div class="col-sm-12">
+                    <div class="title_separator title_sep_pos_align_center title_sep_width_100 title_sep_border_width_2 title_sep_pos_align_center">
+                        <span class="title_separator title_sep_holder">
+                            <span class="title_sep_line"></span>
+                        </span>
+                        <h3><a href="http://silverlakedesignstudio.com/portfolio-posts/chippmunk/" target="_blank"> Chippmunk</a></h3>
+                        <span class="title_separator title_sep_holder">
+                            <span class="title_sep_line"></span>
+                        </span>
+                    </div>
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="img/portfolio/chippmunk-ui.jpg" alt="Chippmunk site-wide redesign">
+                    <div class="card-block">
+                        <p class="card-text">Site development and redesign</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/chippmunk-home.jpg" alt="Chippmunk home page UI design">
+                    <div class="card-block">
+                        <p class="card-text">Chippmunk home page UI design</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/chippmunk-blog-cropped.jpg" alt="Chippmunk blog branding and UI design">
+                    <div class="card-block">
+                        <p class="card-text">Blog branding and UI design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="row">
+            <div class="col-sm-12">
+                <h3 class="lead sub-header"><a href="http://silverlakedesignstudio.com/portfolio-posts/virtual-tourist/" target="_blank"> Trip Advisor / Virtual Tourist</a></h3>
+            </div>
+        </div> -->
+
+        <div class="row">
+                <div class="col-sm-12">
+                    <div class="title_separator title_sep_pos_align_center title_sep_width_100 title_sep_border_width_2 title_sep_pos_align_center">
+                        <span class="title_separator title_sep_holder">
+                            <span class="title_sep_line"></span>
+                        </span>
+                        <h3><a href="http://silverlakedesignstudio.com/portfolio-posts/virtual-tourist/" target="_blank"> Trip Advisor / Virtual Tourist</a></h3>
+                        <span class="title_separator title_sep_holder">
+                            <span class="title_sep_line"></span>
+                        </span>
+                    </div>
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/vt_home1.jpg" alt="Chippmunk site-wide redesign">
+                    <div class="card-block">
+                        <p class="card-text">Virtual Tourist site redesign</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/vt_memberpg.jpg" alt="Chippmunk home page UI design">
+                    <div class="card-block">
+                        <p class="card-text">Virtual Tourist site redesign</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/vt_book.jpg" alt="Chippmunk blog branding and UI design">
+                    <div class="card-block">
+                        <p class="card-text">VT book design and layout</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="row">
+            <div class="col-sm-12">
+                <h3 class="lead sub-header">Identity Design</h3>
+            </div>
+        </div> -->
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title_separator title_sep_pos_align_center title_sep_width_100 title_sep_border_width_2 title_sep_pos_align_center">
+                    <span class="title_separator title_sep_holder">
+                        <span class="title_sep_line"></span>
+                    </span>
+                    <h3>Identity</h3>
+                    <span class="title_separator title_sep_holder">
+                        <span class="title_sep_line"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/identity_virtualTourist.png" alt="Virtual Tourist Branding & logo design">
+                    <div class="card-block">
+                        <p class="card-text"><a href="https://www.virtualtourist.com/" target="_blank">Virtual Tourist branding design</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/identity_loveontap.png" alt="Love On Tap film key art design">
+                    <div class="card-block">
+                        <p class="card-text">Love On Tap film key art design</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/identity_surfrider.png" alt="Surfrider t-shirt design">
+                    <div class="card-block">
+                        <p class="card-text">Surfrider t-shirt design</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/identity_moodCount.png" alt="moodcount logo series and icon design">
+                    <div class="card-block">
+                        <p class="card-text">moodcount logo design</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/identity_kuhnCapital.png" alt="Kuhn Capital logo design">
+                    <div class="card-block">
+                        <p class="card-text">Kuhn Capital logo design</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/identity_merrilyKeane.png" alt="Merrily and Keane logo design">
+                    <div class="card-block">
+                        <p class="card-text">Merrily and Keane logo design</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title_separator title_sep_pos_align_center title_sep_width_100 title_sep_border_width_2 title_sep_pos_align_center">
+                    <span class="title_separator title_sep_holder">
+                        <span class="title_sep_line"></span>
+                    </span>
+                    <h3>Reel Science</h3>
+                    <span class="title_separator title_sep_holder">
+                        <span class="title_sep_line"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/rs_1_dashboard.jpg" alt="Mobile web app ui design">
+                    <div class="card-block">
+                        <p class="card-text">Mobile web app ui design</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/rs_2_project_dashboard.jpg" alt="Mobile web app ui design">
+                    <div class="card-block">
+                        <p class="card-text">Mobile web app ui design</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/rs_3_question_form.jpg" alt="Mobile web app ui design">
+                    <div class="card-block">
+                        <p class="card-text">Mobile web app ui design</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/rs_4_project_infoPg.jpg" alt="Mobile web app ui design">
+                    <div class="card-block">
+                        <p class="card-text">Mobile web app ui design</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/rs_5_answer_screen.jpg" alt="Mobile web app ui design">
+                    <div class="card-block">
+                        <p class="card-text">Mobile web app ui design</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/rs_6_chat.jpg" alt="Mobile web app ui design">
+                    <div class="card-block">
+                        <p class="card-text">Mobile web app ui design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title_separator title_sep_pos_align_center title_sep_width_100 title_sep_border_width_2 title_sep_pos_align_center">
+                    <span class="title_separator title_sep_holder">
+                        <span class="title_sep_line"></span>
+                    </span>
+                    <h3>Internet Brands</h3>
+                    <span class="title_separator title_sep_holder">
+                        <span class="title_sep_line"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/ib_cd_cropped.jpg" alt="Cars Direct deals page design">
+                    <div class="card-block">
+                        <p class="card-text">Cars Direct deals page design</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/ib_law.jpg" alt="Web template design">
+                    <div class="card-block">
+                        <p class="card-text">Web template theme design</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/ib_forumRunner.jpg" alt="formu runner site redesign">
+                    <div class="card-block">
+                        <p class="card-text">Forum Runner site redesign</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title_separator title_sep_pos_align_center title_sep_width_100 title_sep_border_width_2 title_sep_pos_align_center">
+                    <span class="title_separator title_sep_holder">
+                        <span class="title_sep_line"></span>
+                    </span>
+                    <h3>Surfrider</h3>
+                    <span class="title_separator title_sep_holder">
+                        <span class="title_sep_line"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/surfrider_trestles.jpg" alt="Surfrider meeting flyer design">
+                    <div class="card-block">
+                        <p class="card-text">Surfrider fundraiser poster design</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/surfrider_0908.jpg" alt="Surfrider meeting flyer design">
+                    <div class="card-block">
+                        <p class="card-text">Surfrider meeting flyer design</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="~/images/portfolio/surfrider_1008.jpg" alt="Surfrider meeting flyer design">
+                    <div class="card-block">
+                        <p class="card-text">Surfrider meeting flyer design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- END CONTAINER CARDS -->
+</section><!-- END SECTION CARDS -->
+
+<section id="about">
+    <div class="section-about">
+        <div class="container">
+            <h2 class="heading">About</h2>
+            <div class="row">
+                <div class="col-md-6 about-image">
+
+                </div>
+                <div class="col-md-6 about">
+                    <div class="col-md-12 col-sm-6 col-xs-12">
+                        <p>
+                            ado design focuses on responsive web and print design. Founder and owner Anna Donlin is a graphic designer and art director who has worked with TripAdvisor, VirtualTourist, Yahoo! Search Marketing, Overture, and GoTo.
+                        </p>
+                        <p>
+                            Prior to working for these innovative companies, Anna was accepted to participate in the Los Angeles – Berlin Professional Exchange Program. She worked in Berlin, Germany, primarily in architecture, for firms including Archimation, The Berliner Morgenpost, and the Axel Springer Verlag.
+                        </p>
+
+
+                    </div>
+                    <div class="col-md-12 col-sm-6 col-xs-12">
+
+                        <p>
+                            Anna's degree in International Studies has informed her design work, much of it for clients in the international marketplace. These include Overture International, Yahoo Search Marketing, and TripAdvisor. Her influences are wide-ranging and informed by a commitment to stay educated on new developments and technologies. She thinks in terms of good design as a shared and common language – capable of making a global impact and changing the world for the better.
+                        </p>
+                        <!-- <p>
+                            This global, strategic mindset has lead to thinking beyond design and considering the roots of creativity. In trying to understand more deeply how her design ideas and inspiration evolve, Anna has done extensive study and research on creativity, motivation, and innovation.
+                        </p> -->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section> <!-- END SECTION ABOUT -->
+
+
+<section id="contact">
+        @Html.Partial("_Form", Model.bridgeContact)
+</section><!-- END SECTION CONTACT -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <p>&copy; ado design</p>
+            </div>
+
+            <div class="col-sm-4 scroll-to-top-button">
+                <a href="#cover"><i class="fa fa-3x fa-chevron-circle-up"></i></a>
+            </div>
+
+            <div class="col-sm-4">
+                <<!-- ul class="social-links">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                </ul> -->
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+<script type="text/javascript" src="~/js/jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="~/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="~/js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="~/js/main.js"></script>
+
+</body>
+
+
+
